@@ -9,7 +9,7 @@ export PATH
 set -e -u
 
 # 安装expect
-yum -y install expect
+yum -y install expect openssh-clients
 
 # 设置log服务器IP和密码
 LOG_SERVER_PATH='root@192.168.0.1:/root/webservice-master'

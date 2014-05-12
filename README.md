@@ -4,8 +4,11 @@ webservice
 一键同时安装(nginx|apache、php、memcached)到多台服务器
 
 实验安装环境
+
 	os：			cenos 6.5
+	
 	apr: 			apr-1.5.1
+	
 	apr-util:  		apr-util-1.5.3
 	apache:			httpd-2.4.9
 	nginx:			nginx-1.4.7

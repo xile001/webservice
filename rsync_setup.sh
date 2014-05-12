@@ -8,6 +8,7 @@ set -e -u
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 export PATH
 
+yum -y install openssh-clients rsync
 # 根目录
 export PATH_ROOT=`pwd`
 

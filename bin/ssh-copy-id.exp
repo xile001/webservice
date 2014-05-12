@@ -1,0 +1,17 @@
+#!/usr/bin/expect -f
+# centos 6.5
+# xile(qq:278825498)
+# ssh-copy-id.exp
+
+set SERVER_PASS [lindex $argv 0 ]
+set SERVER_PATH [lindex $argv 1 ]
+set FILES [lindex $argv 2 ]
+set timeout -1
+
+spawn ssh-copy-id -i $FILES $SERVER_PATH
+expect {
+    "*yes/no*" { send "yes\r"; exp_continue}
+    "*?assword:*" { send "$SERVER_PASS\r"}
+}
+
+expect eof

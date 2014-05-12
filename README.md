@@ -16,7 +16,7 @@ webservice
 	libevent:		libevent-2.0.21-stable
 	memcached服务器:	memcached-1.4.17
 	memcache php服务：	memcache-2.2.7
-	yum -y install gcc gcc-c++ gcc-g77 flex bison autoconf automake bzip2-devel ncuress-devel zlib-devel libjpeg-devel libpng-devel libtiff-devel freetype-devel pam-devel openssl-devel libxml2-devel gettext-devel pcre-devel libcurl-devel expect rsync
+	yum -y install gcc gcc-c++ gcc-g77 flex bison autoconf automake bzip2-devel ncuress-devel zlib-devel libjpeg-devel libpng-devel libtiff-devel freetype-devel pam-devel openssl-devel libxml2-devel gettext-devel pcre-devel libcurl-devel mysql-devel expect rsync
 
 以上安装本人均在root用户下实施
 

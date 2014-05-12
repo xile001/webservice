@@ -1,7 +1,7 @@
 #!/bin/bash
 # centos 6.5
 # xile(qq:278825498)
-# rsnychro.sh
+# rsync_setup.sh
 
 set -e -u
 

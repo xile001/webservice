@@ -6,9 +6,7 @@ webservice
 实验安装环境
 
 	os：			cenos 6.5
-	
 	apr: 			apr-1.5.1
-	
 	apr-util:  		apr-util-1.5.3
 	apache:			httpd-2.4.9
 	nginx:			nginx-1.4.7
@@ -20,7 +18,7 @@ webservice
 	yum -y install gcc gcc-c++ gcc-g77 flex bison autoconf automake bzip2-devel ncuress-devel zlib-devel libjpeg-devel libpng-devel libtiff-devel freetype-devel pam-devel openssl-devel libxml2-devel gettext-devel pcre-devel libcurl-devel expect rsync
 
 以上安装本人均在root用户下实施
------------------------------------------------------------------------------------------------------------
+
 安装前配置
 	1.用root身份登录安装
 	2.确保各服务器yum源网络可访问(官方的即可)

@@ -2,6 +2,7 @@ webservice
 ==========
 
 一键同时安装(nginx|apache、php、memcached)到多台服务器
+建议先安装一台机器 然后把配置文件替换现有的配置文件
 
 实验安装环境
 

@@ -12,7 +12,7 @@ set -e -u
 yum -y install expect
 
 # 设置log服务器IP和密码
-LOG_SERVER_PATH='root@192.168.0.1:/root/webos'
+LOG_SERVER_PATH='root@192.168.0.1:/root/webservice-master'
 
 LOG_SERVER_PASS='test'
 

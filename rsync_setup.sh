@@ -31,7 +31,7 @@ SRC='/var/webservice/www/'
 # 从服务器目录
 DES='/var/webservice/www'
 
-for i in `cat /root/webos/clients`
+for i in `cat ./clients`
 do
   #获取用户名和IP
   SERVER_UNAME=`echo $i | cut -d: -f1`

@@ -30,3 +30,4 @@ webservice
 	查看安装日志(由配置文件install.sh提拱,也可以到终端安装脚本下log文件夹下用tailf webinstall 查看当前安装状况)
 
 	安装完webservice环境之后执行rsync_setup.sh 可以把本服务器的指定访目录同步到各服务中，具体配置见rsync_setup.sh文件
+	

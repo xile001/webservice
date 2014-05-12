@@ -5,7 +5,7 @@ webservice
 
 实验安装环境
 
-	os：			 cenos 6.5
+	os：			 cenos 6.5（最小化安装）
 	apr: 			apr-1.5.1
 	apr-util:  		apr-util-1.5.3
 	apache:			httpd-2.4.9
